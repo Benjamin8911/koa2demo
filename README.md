@@ -1,6 +1,7 @@
 # koa2demo
 ## php代码
-    <?php
+### 暴露文件为add.php
+    <?php
         $servername="localhost";
         $username="root";
         $password="";
