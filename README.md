@@ -1,6 +1,6 @@
 # koa2demo
 ## php代码
-    <?php
+    <?php
         $servername="localhost";
         $username="root";
         $password="";
