@@ -34,7 +34,7 @@ var PraiseButton = function () {
                         $('#animation').addClass('num');
                         _this.num = add(_this.num);
                         //  异步请求php接口
-                        axios.get('/add').then(function () {
+                        axios.get('/index/add').then(function () {
                             console.log('数据库点赞+1');
                         });
                         //  结束动画

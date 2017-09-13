@@ -13,7 +13,7 @@ class PraiseButton {
                     $('#animation').addClass('num');
                     this.num = add(this.num);
                     //  异步请求php接口
-                    axios.get('/add').then(function() { console.log('数据库点赞+1') });
+                    axios.get('/index/add').then(function() { console.log('数据库点赞+1') });
                     //  结束动画
                     setTimeout(function() {
                         $('#animation').removeClass('num');
