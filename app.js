@@ -50,7 +50,7 @@ app.context.render = _co2.default.wrap((0, _koaSwig2.default)({
 }));
 
 //  静态资源文件
-app.use((0, _koaConvert2.default)((0, _koaStatic2.default)(_config2.default.get('publicDir'))));
+app.use((0, _koaConvert2.default)((0, _koaStatic2.default)(_config2.default.get('staticDir'))));
 app.listen(_config2.default.get('port'), function () {
     console.log('Server is running');
 });
