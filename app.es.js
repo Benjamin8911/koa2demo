@@ -19,7 +19,9 @@ app.context.render = co.wrap(render({
 }));
 
 //  静态资源文件
-app.use(convert(serve(config.get('publicDir'))));
+app.use(convert(serve(config.get('staticDir'))));
 app.listen(config.get('port'), () => {
     console.log('Server is running');
 });
+
+export default app;
