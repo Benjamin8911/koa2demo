@@ -22,7 +22,7 @@
 SystemJS.config({
     baseURL: '/scripts'
 });
-SystemJS.import('index.es.js').then(function(m) {
+SystemJS.import('index.js').then(function(m) {
     $.extend({
         thumb: m.default.Thumb
     });
